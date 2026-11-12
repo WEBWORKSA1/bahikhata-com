@@ -61,13 +61,13 @@ If you are a composition dealer, you cannot claim input credit and you pay compo
 
 A discount comes straight out of your profit, not out of your price. On an item with a 20% margin:
 
-| Discount given | Margin left | Extra sales needed to earn the same profit |
+| Discount given | Margin left | Extra sales (in rupees) needed to earn the same profit |
 |---|---|---|
 | 5% | 15.8% | 27% more |
 | 10% | 11.1% | 80% more |
 | 15% | 5.9% | 240% more |
 
-A 10% discount on a 20%-margin product needs 80% more volume just to stand still. Check any offer with our [discount calculator]({{root}}tools/discount-calculator/) before you announce it.
+A 10% discount on a 20%-margin product needs 80% more sales in rupees, which means twice as many units, just to stand still. Check any offer with our [discount calculator]({{root}}tools/discount-calculator/) before you announce it.
 
 ## Price psychology that works in Indian retail
 

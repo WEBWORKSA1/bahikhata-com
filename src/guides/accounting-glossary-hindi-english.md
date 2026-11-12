@@ -1,5 +1,5 @@
 ---
-title: Hindi–English accounting glossary: 90 khata and GST terms explained
+title: Hindi–English accounting glossary: 70+ khata and GST terms explained
 description: Plain meanings of traditional bahi-khata words like jama, naam, rokad, baaki and byaj, alongside modern accounting and GST terms such as ITC, HSN, GSTR-3B and e-way bill.
 category: Basics
 updated: 2026-11-12

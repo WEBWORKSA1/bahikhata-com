@@ -1,0 +1,12 @@
+[
+  {"slug": "gst-calculator", "name": "GST calculator", "desc": "Add or remove GST at 0, 3, 5, 18 or 40 percent, with the CGST, SGST and IGST split.", "nav": "Add or remove GST in one step"},
+  {"slug": "invoice-generator", "name": "GST invoice generator", "desc": "Make tax invoices, bills of supply, quotations and receipts with UPI QR, then print or save as PDF.", "nav": "Bills, quotations and receipts with UPI QR"},
+  {"slug": "interest-calculator", "name": "Byaj (interest) calculator", "desc": "Simple and compound interest between two dates, including rupees-per-hundred monthly rates.", "nav": "Interest between two dates, per-100 rates"},
+  {"slug": "emi-calculator", "name": "EMI calculator", "desc": "Monthly instalment, total interest and a full repayment schedule for any business or personal loan.", "nav": "Instalment and repayment schedule"},
+  {"slug": "margin-calculator", "name": "Margin and markup calculator", "desc": "Turn cost into selling price, or price into margin, with or without GST.", "nav": "Price products from cost or target margin"},
+  {"slug": "break-even-calculator", "name": "Break-even calculator", "desc": "How many units and how much in sales you need to cover fixed costs.", "nav": "Units and sales needed to cover costs"},
+  {"slug": "discount-calculator", "name": "Discount calculator", "desc": "Final price after single or successive discounts, and what the offer does to your margin.", "nav": "Final price and margin after an offer"},
+  {"slug": "amount-in-words", "name": "Amount in words", "desc": "Write any rupee amount in words in the Indian lakh and crore system, ready for cheques and invoices.", "nav": "Rupees in words for cheques and bills"},
+  {"slug": "gstin-validator", "name": "GSTIN checker", "desc": "Check a GSTIN's format and check digit, and read its state, PAN and entity type.", "nav": "Verify format, state and check digit"},
+  {"slug": "due-date-calendar", "name": "Compliance due-date calendar", "desc": "Upcoming GST, TDS, PF and income-tax dates, updated automatically every day.", "nav": "GST and tax dates, auto-updated"}
+]

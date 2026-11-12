@@ -1,11 +1,11 @@
 {
  "/": {
   "date": "2026-11-12",
-  "hash": "fb356789c10f"
+  "hash": "e994815507ba"
  },
  "/about/": {
   "date": "2026-11-12",
-  "hash": "a6e983bd63c9"
+  "hash": "1319c56bbe9e"
  },
  "/advertise/": {
   "date": "2026-11-12",
@@ -21,7 +21,7 @@
  },
  "/contests/": {
   "date": "2026-11-12",
-  "hash": "95b95deaa340"
+  "hash": "1b8a22f5b540"
  },
  "/cookies/": {
   "date": "2026-11-12",
@@ -45,67 +45,71 @@
  },
  "/learn/": {
   "date": "2026-11-12",
-  "hash": "f417d242b512"
+  "hash": "ad818b6336ec"
  },
  "/learn/accounting-glossary-hindi-english/": {
   "date": "2026-11-12",
-  "hash": "d5e324d56568"
+  "hash": "35952dd9ece4"
  },
  "/learn/bahi-khata-meaning-history/": {
   "date": "2026-11-12",
-  "hash": "4f1afa63bf1d"
+  "hash": "ca0ce9e81067"
+ },
+ "/learn/bahikhata-meaning-history/": {
+  "date": "2026-11-12",
+  "hash": "8f86eeba6633"
  },
  "/learn/cash-book-rokad/": {
   "date": "2026-11-12",
-  "hash": "0512ad775b71"
+  "hash": "669fd915f5c1"
  },
  "/learn/cash-flow-vs-profit/": {
   "date": "2026-11-12",
-  "hash": "73b4b1a86022"
+  "hash": "36c341b55a90"
  },
  "/learn/double-entry-golden-rules/": {
   "date": "2026-11-12",
-  "hash": "e9bf37f5daac"
+  "hash": "decdb4cd1506"
  },
  "/learn/gst-basics-small-business/": {
   "date": "2026-11-12",
-  "hash": "53aa6053d8a2"
+  "hash": "3e5fa5a38b05"
  },
  "/learn/gst-invoice-format/": {
   "date": "2026-11-12",
-  "hash": "3d156f5d5c26"
+  "hash": "e24a2ed46543"
  },
  "/learn/margin-vs-markup-pricing/": {
   "date": "2026-11-12",
-  "hash": "2e61eefaf09f"
+  "hash": "99e77b8d9aa9"
  },
  "/learn/profit-loss-balance-sheet/": {
   "date": "2026-11-12",
-  "hash": "7d50072f8d65"
+  "hash": "6c9de07ec0b7"
  },
  "/learn/small-business-loans-india/": {
   "date": "2026-11-12",
-  "hash": "d51d31a16cd1"
+  "hash": "ca3f6860bc6d"
  },
  "/learn/start-digital-khata/": {
   "date": "2026-11-12",
-  "hash": "6c9351b8bc91"
+  "hash": "158fa007521d"
  },
  "/learn/stock-register-inventory/": {
   "date": "2026-11-12",
-  "hash": "d7231867cfa7"
+  "hash": "66f7c8ad65f1"
  },
  "/learn/udhaar-credit-management/": {
   "date": "2026-11-12",
-  "hash": "262304756c4c"
+  "hash": "8818cdbb11f9"
  },
  "/learn/udyam-msme-registration/": {
   "date": "2026-11-12",
-  "hash": "fee1684582ee"
+  "hash": "7665d491a439"
  },
  "/learn/year-end-closing-new-bahi/": {
   "date": "2026-11-12",
-  "hash": "3318d2811cc0"
+  "hash": "127dc8f2daa6"
  },
  "/news/": {
   "date": "2026-11-12",
@@ -177,7 +181,7 @@
  },
  "/trademark/": {
   "date": "2026-11-12",
-  "hash": "575eae9bead7"
+  "hash": "f8214f5d0b65"
  },
  "/videos/": {
   "date": "2026-11-12",

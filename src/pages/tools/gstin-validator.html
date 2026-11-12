@@ -1,0 +1,53 @@
+---
+title: GSTIN checker: verify GST number format, state and check digit
+full_title: GSTIN Checker: Verify GST Number Format, State, PAN and Check Digit | BahiKhata.com
+description: Check whether a 15-character GSTIN is correctly formed. Reads the state code, PAN, entity type and verifies the check digit, one at a time or in bulk. Free and private.
+nav: tools
+crumb: GSTIN checker
+h1: GSTIN checker
+lede: Catch typing mistakes in a GST number before you bill. Reads the state, PAN and entity type, and verifies the check digit.
+scripts: tools.js
+app: yes
+---
+<section class="band band-tight">
+  <div class="wrap tool" data-tool="gstin">
+    <div class="tool-ui">
+      <div class="field"><label for="v-in">GSTIN</label><input id="v-in" type="text" maxlength="20" autocomplete="off" spellcheck="false" style="text-transform:uppercase;font-size:1.25rem;letter-spacing:.06em" value="27AAPFU0939F1ZV"></div>
+      <p class="small muted">The number above is a commonly used public example. Replace it with the GSTIN you want to check.</p>
+      <details class="panel panel-tint">
+        <summary style="cursor:pointer;font-weight:700">Check many GSTINs at once</summary>
+        <div class="field mt1"><label for="v-bulk">Paste up to 200 GSTINs, separated by commas, spaces or new lines</label><textarea id="v-bulk"></textarea></div>
+        <button class="btn btn-line btn-sm mt1" type="button" id="v-bulk-go">Check all</button>
+        <div id="v-bulk-out" class="mt1"></div>
+      </details>
+    </div>
+    <div class="tool-out" aria-live="polite">
+      <div class="big-label">Result</div>
+      <div class="big" id="v-big">—</div>
+      <div id="v-out"></div>
+    </div>
+  </div>
+</section>
+<section class="band band-tint">
+  <div class="wrap two-col">
+    <div class="prose">
+      <h2>How a GSTIN is built</h2>
+      <div class="tbl-wrap"><table class="table"><thead><tr><th>Characters</th><th>Meaning</th></tr></thead><tbody>
+      <tr><td>1–2</td><td>State code, for example 27 for Maharashtra or 07 for Delhi</td></tr>
+      <tr><td>3–12</td><td>PAN of the business or proprietor</td></tr>
+      <tr><td>13</td><td>Registration number under that PAN in the state (1 for the first)</td></tr>
+      <tr><td>14</td><td>"Z" by default for regular taxpayers</td></tr>
+      <tr><td>15</td><td>Check digit calculated from the first 14 characters</td></tr></tbody></table></div>
+      <p>The check digit catches most single-character typing mistakes. If it does not match, the number has almost certainly been copied wrongly.</p>
+      <h2>Format check versus live status</h2>
+      <p>This tool checks structure only, and runs entirely in your browser. A correctly formed GSTIN can still be cancelled or suspended. Before a large B2B sale, search the number on the official GST portal to confirm the legal name and that the registration is active.</p>
+    </div>
+    <div>
+      <h2>Questions</h2>
+      <details class="faq"><summary>Why does a GSTIN start with a number like 27 or 09?</summary><p>The first two digits are the state code under GST. 27 is Maharashtra, 09 is Uttar Pradesh, 29 is Karnataka and 33 is Tamil Nadu.</p></details>
+      <details class="faq"><summary>Can one PAN have more than one GSTIN?</summary><p>Yes. A business needs a separate GSTIN in each state where it is registered, and can have more than one registration in a state, which is shown by the 13th character.</p></details>
+      <details class="faq"><summary>What does the fourth letter of the PAN mean?</summary><p>It shows the type of holder: P for an individual, C for a company, F for a firm, H for an HUF, T for a trust, and so on. The checker shows this for you.</p></details>
+    </div>
+  </div>
+</section>
+<section class="band"><div class="wrap"><h2>More tools</h2>{{related_tools:gstin-validator}}</div></section>

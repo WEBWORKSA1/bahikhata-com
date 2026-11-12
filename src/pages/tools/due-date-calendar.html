@@ -1,0 +1,58 @@
+---
+title: GST, TDS and income-tax due-date calendar (auto-updated)
+full_title: GST and Tax Due Date Calendar for Small Businesses, Updated Daily | BahiKhata.com
+description: Upcoming GSTR-1, GSTR-3B, CMP-08, QRMP, TDS, PF, ESI, advance tax and income-tax return dates, calculated for today. Filter by your situation and add reminders to Google Calendar or download an ICS file.
+nav: tools
+crumb: Due-date calendar
+h1: Compliance due-date calendar
+lede: The statutory dates a small business usually needs, recalculated every day. Filter by what applies to you and add reminders to your calendar.
+scripts: tools.js
+app: yes
+---
+<section class="band band-tight">
+  <div class="wrap" data-tool="calendar">
+    <div class="panel panel-tint">
+      <div class="grid g2">
+        <fieldset class="field" style="border:0;padding:0;margin:0"><legend class="flabel">Show dates for</legend>
+          <div class="choices">
+            <label class="choice"><input type="checkbox" name="c-who" value="gst" checked><span>GST monthly filer</span></label>
+            <label class="choice"><input type="checkbox" name="c-who" value="qrmp" checked><span>GST quarterly (QRMP)</span></label>
+            <label class="choice"><input type="checkbox" name="c-who" value="comp" checked><span>Composition scheme</span></label>
+            <label class="choice"><input type="checkbox" name="c-who" value="tds" checked><span>TDS deductor</span></label>
+            <label class="choice"><input type="checkbox" name="c-who" value="payroll" checked><span>Employer (PF, ESI)</span></label>
+            <label class="choice"><input type="checkbox" name="c-who" value="it" checked><span>Income tax</span></label>
+          </div>
+        </fieldset>
+        <div class="form">
+          <div class="field"><label for="c-range">Period</label><select id="c-range"><option value="31">Next 30 days</option><option value="92" selected>Next 3 months</option><option value="183">Next 6 months</option><option value="366">Next 12 months</option></select></div>
+          <button class="btn btn-red" type="button" id="c-ics">Download calendar file (.ics)</button>
+          <p class="small muted mb0">The .ics file works with Google Calendar, Outlook and iPhone, and includes a reminder two days before each date.</p>
+        </div>
+      </div>
+    </div>
+    <div id="c-list" class="mt2" aria-live="polite"></div>
+    <div class="note mt2"><p><strong>Always confirm before you file.</strong> These are the usual statutory due dates. The government often extends deadlines by notification, QRMP GSTR-3B is due on the 22nd or 24th depending on your state, and some dates shift when they fall on a holiday. Check the official GST and income-tax portals or ask your accountant.</p></div>
+  </div>
+</section>
+<section class="band band-tint">
+  <div class="wrap two-col">
+    <div class="prose">
+      <h2>Which dates apply to me?</h2>
+      <ul>
+        <li><strong>Regular GST, monthly:</strong> GSTR-1 by the 11th and GSTR-3B by the 20th of the next month.</li>
+        <li><strong>QRMP scheme (turnover up to ₹5 crore):</strong> pay tax monthly by the 25th using PMT-06, file quarterly returns, and optionally upload B2B invoices through IFF by the 13th.</li>
+        <li><strong>Composition scheme:</strong> CMP-08 by the 18th after each quarter and GSTR-4 once a year.</li>
+        <li><strong>TDS:</strong> deposit by the 7th of the next month (30 April for March) and file quarterly returns.</li>
+        <li><strong>Income tax:</strong> advance tax instalments in June, September, December and March, and the return by 31 July for most non-audit cases.</li>
+      </ul>
+      <p>New to GST? Start with <a href="{{root}}learn/gst-basics-small-business/">GST for small businesses</a>.</p>
+    </div>
+    <div>
+      <h2>Questions</h2>
+      <details class="faq"><summary>What happens if I miss a GST due date?</summary><p>Late fees apply per day of delay, and interest is charged on tax paid late. Late filing can also block your customers' input tax credit, which hurts business relationships.</p></details>
+      <details class="faq"><summary>Does this calendar update itself?</summary><p>Yes. The dates are calculated in your browser from today's date every time you open the page, so the list is always current.</p></details>
+      <div class="panel panel-tint mt2"><h3>Want someone to file for you?</h3><p class="muted">A GST practitioner can handle your monthly returns for a fixed fee.</p><a class="btn btn-red btn-sm" href="{{root}}expert-help/?need=gst">Get GST help</a></div>
+    </div>
+  </div>
+</section>
+<section class="band"><div class="wrap"><h2>More tools</h2>{{related_tools:due-date-calendar}}</div></section>

@@ -1,0 +1,49 @@
+---
+title: Discount calculator with successive discounts and margin impact
+full_title: Discount Calculator: Final Price, Successive Discounts and Margin | BahiKhata.com
+description: Calculate the final price after a percentage discount, two successive discounts or a flat rupee discount, and see how the offer changes your margin and the extra sales you need.
+nav: tools
+crumb: Discount calculator
+h1: Discount calculator
+lede: Check the final price after any offer, and what it does to your margin before you announce it.
+scripts: tools.js
+app: yes
+---
+<section class="band band-tight">
+  <div class="wrap tool" data-tool="discount">
+    <div class="tool-ui">
+      <div class="row2">
+        <div class="field"><label for="d-price">Price or MRP (₹)</label><input id="d-price" type="number" inputmode="decimal" min="0" step="any" value="1000"></div>
+        <div class="field"><label for="d-qty">Quantity</label><input id="d-qty" type="number" inputmode="numeric" min="1" step="1" value="1"></div>
+      </div>
+      <div class="row2">
+        <div class="field"><label for="d-1">Discount (%)</label><input id="d-1" type="number" inputmode="decimal" min="0" max="100" step="any" value="10"></div>
+        <div class="field"><label for="d-2">Further discount (%)</label><input id="d-2" type="number" inputmode="decimal" min="0" max="100" step="any" value="0"></div>
+      </div>
+      <div class="field"><label for="d-flat">Flat discount (₹, optional)</label><input id="d-flat" type="number" inputmode="decimal" min="0" step="any" value="0"></div>
+      <div class="field"><label for="d-cost">Your cost price (₹, optional, for sellers)</label><input id="d-cost" type="number" inputmode="decimal" min="0" step="any" value="800"></div>
+    </div>
+    <div class="tool-out" aria-live="polite">
+      <div class="big-label" id="d-big-l">Final price</div>
+      <div class="big" id="d-big">₹0</div>
+      <div id="d-out"></div>
+    </div>
+  </div>
+</section>
+<section class="band band-tint">
+  <div class="wrap two-col">
+    <div class="prose">
+      <h2>Successive discounts are not added</h2>
+      <p>"10% + 5% off" means 10% off the price, then 5% off the reduced price. On ₹1,000 that is ₹900, then ₹855: an effective discount of 14.5%, not 15%.</p>
+      <p>Effective discount = 1 − (1 − d1) × (1 − d2)</p>
+      <h2>What a discount costs a seller</h2>
+      <p>A discount comes straight out of profit. On an item with cost ₹800 and price ₹1,000, profit is ₹200. A 10% discount cuts the price to ₹900 and profit to ₹100: half the profit is gone, and you need twice as many units to earn the same. Our guide on <a href="{{root}}learn/margin-vs-markup-pricing/">pricing and margins</a> has a full table.</p>
+    </div>
+    <div>
+      <h2>Questions about discounts</h2>
+      <details class="faq"><summary>Is GST charged before or after discount?</summary><p>A discount shown on the invoice at the time of sale reduces the taxable value, so GST is charged on the discounted price.</p></details>
+      <details class="faq"><summary>Can I sell above MRP if I give a discount later?</summary><p>No. MRP is the maximum retail price including all taxes. You can sell below MRP but not above it.</p></details>
+    </div>
+  </div>
+</section>
+<section class="band"><div class="wrap"><h2>More tools</h2>{{related_tools:discount-calculator}}</div></section>

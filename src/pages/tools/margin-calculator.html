@@ -1,0 +1,44 @@
+---
+title: Margin and markup calculator, with GST
+full_title: Margin and Markup Calculator: Selling Price from Cost, with GST | BahiKhata.com
+description: Find your profit margin and markup from cost and selling price, or set a selling price from a target margin or markup. Shows the price to charge including GST.
+nav: tools
+crumb: Margin calculator
+h1: Margin and markup calculator
+lede: Price your products correctly. Work from cost and price, from a target margin, or from a markup, and see the price to charge with GST.
+scripts: tools.js
+app: yes
+---
+<section class="band band-tight">
+  <div class="wrap tool" data-tool="margin">
+    <div class="tool-ui">
+      <div class="field"><span class="flabel">I know the</span>
+        <div class="seg"><label><input type="radio" name="m-mode" value="price" checked><span>Selling price</span></label><label><input type="radio" name="m-mode" value="margin"><span>Target margin</span></label><label><input type="radio" name="m-mode" value="markup"><span>Markup</span></label></div></div>
+      <div class="field"><label for="m-cost">Cost price per unit (₹, before GST)</label><input id="m-cost" type="number" inputmode="decimal" min="0" step="any" value="600"></div>
+      <div class="field"><label for="m-x" id="m-x-l">Selling price (before GST)</label><input id="m-x" type="number" inputmode="decimal" min="0" step="any" value="800"></div>
+      <div class="field"><label for="m-gst">GST rate on the product (%, optional)</label><select id="m-gst"><option value="0">No GST / composition</option><option value="5">5%</option><option value="18" selected>18%</option><option value="40">40%</option><option value="3">3%</option></select></div>
+    </div>
+    <div class="tool-out" aria-live="polite">
+      <div class="big-label" id="m-big-l">Gross margin</div>
+      <div class="big" id="m-big">0%</div>
+      <div id="m-out"></div>
+    </div>
+  </div>
+</section>
+<section class="band band-tint">
+  <div class="wrap two-col">
+    <div class="prose">
+      <h2>Margin or markup?</h2>
+      <p><strong>Margin</strong> = Profit ÷ Selling price × 100. <strong>Markup</strong> = Profit ÷ Cost × 100.</p>
+      <p>An item bought for ₹600 and sold for ₹800 makes ₹200 profit: a 25% margin but a 33.3% markup. If you want a 25% margin, you cannot simply add 25% to cost; that gives ₹750 and only a 20% margin.</p>
+      <p><strong>Price for a target margin</strong> = Cost ÷ (1 − Margin ÷ 100). For a 25% margin on ₹600: 600 ÷ 0.75 = ₹800.</p>
+      <p>Margins should be calculated on prices before GST, because GST collected is passed on to the government. Read <a href="{{root}}learn/margin-vs-markup-pricing/">margin vs markup</a> for a full conversion table and the effect of discounts.</p>
+    </div>
+    <div>
+      <h2>Questions about margins</h2>
+      <details class="faq"><summary>Can margin be more than 100 percent?</summary><p>No. Margin is profit as a share of selling price, so it is always below 100%. Markup can exceed 100%, for example when you sell at three times cost.</p></details>
+      <details class="faq"><summary>Should I include shop rent in cost price?</summary><p>For gross margin, use only the direct cost of the goods. Rent, salaries and electricity are covered by gross margin and show up in net profit. Use the break-even calculator to check that your margin covers them.</p></details>
+    </div>
+  </div>
+</section>
+<section class="band"><div class="wrap"><h2>More tools</h2>{{related_tools:margin-calculator}}</div></section>

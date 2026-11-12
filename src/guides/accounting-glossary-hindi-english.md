@@ -1,18 +1,18 @@
 ---
 title: Hindi–English accounting glossary: 70+ khata and GST terms explained
-description: Plain meanings of traditional bahi-khata words like jama, naam, rokad, baaki and byaj, alongside modern accounting and GST terms such as ITC, HSN, GSTR-3B and e-way bill.
+description: Plain meanings of traditional bahikhata words like jama, naam, rokad, baaki and byaj, alongside modern accounting and GST terms such as ITC, HSN, GSTR-3B and e-way bill.
 category: Basics
 updated: 2026-11-12
 tools: khata, gst-calculator, amount-in-words
 cta: books
 ---
 
-Indian business runs in two vocabularies at once: the words of the traditional bahi-khata and the language of modern accounting and GST. This glossary puts them side by side. Terms are grouped so related words sit together.
+Indian business runs in two vocabularies at once: the words of the traditional bahikhata and the language of modern accounting and GST. This glossary puts them side by side. Terms are grouped so related words sit together.
 
 ## Traditional khata words
 
 Bahi (बही)
-: A bound book or register. A bahi-khata is an account book.
+: A bound book or register. A bahikhata is an account book.
 
 Khata (खाता)
 : An account, usually the page for one person or one head of expense.

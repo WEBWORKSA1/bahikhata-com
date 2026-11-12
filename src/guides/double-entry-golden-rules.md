@@ -28,7 +28,7 @@ Indian commerce classes teach accounts in three groups, each with its own rule.
 | Real | Cash, stock, furniture, building | What comes in | What goes out |
 | Nominal | Rent, salary, discount, commission, interest | All expenses and losses | All incomes and gains |
 
-The traditional bahi-khata used the same idea for personal accounts: naam for the receiver, jama for the giver.
+The traditional bahikhata used the same idea for personal accounts: naam for the receiver, jama for the giver.
 
 ## Worked examples from a kirana shop
 

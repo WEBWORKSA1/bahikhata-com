@@ -1,7 +1,7 @@
 {
   "name": "BahiKhata digital khata",
   "short_name": "BahiKhata",
-  "description": "Free digital bahi-khata: udhaar ledger, cash book and reminders.",
+  "description": "Free digital bahikhata: udhaar ledger, cash book and reminders.",
   "start_url": "./khata/",
   "scope": "./",
   "display": "standalone",

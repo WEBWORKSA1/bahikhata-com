@@ -1,6 +1,6 @@
 # BahiKhata.com
 
-Free digital bahi-khata (udhaar ledger and cash book in the browser), Indian small-business money tools, plain-language guides and an expert-help desk. Monetised with Google AdSense, expert-help leads, sponsorships and supporter pledges.
+Free digital bahikhata (udhaar ledger and cash book in the browser), Indian small-business money tools, plain-language guides and an expert-help desk. Monetised with Google AdSense, expert-help leads, sponsorships and supporter pledges.
 
 - **Hosting:** GitHub Pages, free plan, `main` branch, root folder. Plain static HTML (`.nojekyll`).
 - **Build:** `python3 scripts/build.py` (needs `pip install markdown`). A GitHub Action runs it automatically on every push and every morning.

@@ -4,11 +4,11 @@ Prepared November 2026. Benchmarks are from live visits to 38 sites in the khata
 
 ## 1. The decision
 
-**Build BahiKhata.com as a free, no-install digital bahi-khata (browser app) surrounded by Indian small-business money tools, plain-language guides, and an expert-help desk that sells qualified leads to CAs, GST practitioners and lenders.**
+**Build BahiKhata.com as a free, no-install digital bahikhata (browser app) surrounded by Indian small-business money tools, plain-language guides, and an expert-help desk that sells qualified leads to CAs, GST practitioners and lenders.**
 
 | Option | Traffic potential | Monetisation | Build cost | Moat | Verdict |
 |---|---|---|---|---|---|
-| History/culture blog about bahi-khata | Low | AdSense only, thin | Low | None | Reject |
+| History/culture blog about bahikhata | Low | AdSense only, thin | Low | None | Reject |
 | Full cloud accounting SaaS | High | Subscriptions | Very high (cloud, GST APIs, support) | Crowded: Khatabook, OkCredit, Vyapar, Tally, Zoho | Not now |
 | E-commerce for paper bahi books | Niche, seasonal (Diwali) | Product margin | Inventory, logistics | Low | Reject |
 | **Web khata + tool suite + lead-gen desk** | **High (khata, GST, invoice, byaj, EMI queries)** | **AdSense + leads + sponsorship + support** | **Static site, free hosting** | **Exact-match generic domain, no-install, privacy, Hindi** | **Pick** |
@@ -45,7 +45,7 @@ Levers that move the number most, in order: lead conversion rate, partner price 
 | 1 | okcredit.in | Udhaar khata app | Record → remind → collect flow; WhatsApp reminders with UPI; paper-vs-digital explainer; Hindi |
 | 2 | vyaparapp.in | GST billing app | Short call-back form (phone, business type, city); "talk to expert" CTA; free tools and invoice formats |
 | 3 | mybillbook.in | Billing app | Template-first invoicing; reminders with UPI links; GST calculators as SEO assets |
-| 4 | tallysolutions.com | Accounting software | "From bahi-khata to digital" narrative; learning hub; free templates |
+| 4 | tallysolutions.com | Accounting software | "From bahikhata to digital" narrative; learning hub; free templates |
 | 5 | zoho.com/in/books | Accounting SaaS | Structured demo-request form fields; GST resource hub |
 | 6 | cleartax.in | Tax filing | Persona-based help; calculator suite; "book an expert" lead path |
 | 7 | refrens.com | Invoicing | Free invoice, quotation, proforma, challan generators |

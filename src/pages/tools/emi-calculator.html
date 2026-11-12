@@ -1,0 +1,56 @@
+---
+title: EMI calculator for business and personal loans with schedule
+full_title: EMI Calculator: Monthly Instalment, Interest and Repayment Schedule | BahiKhata.com
+description: Calculate the EMI on any business, Mudra, vehicle or personal loan. See total interest, the principal and interest split and a yearly or monthly repayment schedule you can download.
+nav: tools
+crumb: EMI calculator
+h1: EMI calculator
+lede: Work out the monthly instalment, total interest and full repayment schedule before you sign a loan.
+scripts: tools.js
+app: yes
+---
+<section class="band band-tight">
+  <div class="wrap tool" data-tool="emi">
+    <div class="tool-ui">
+      <div class="field"><label for="e-p">Loan amount (₹)</label><input id="e-p" type="number" inputmode="decimal" min="0" step="any" value="500000"></div>
+      <div class="field"><label for="e-r">Interest rate (% per year, reducing balance)</label><input id="e-r" type="number" inputmode="decimal" min="0" step="any" value="12"></div>
+      <div class="row2">
+        <div class="field"><label for="e-t">Tenure</label><input id="e-t" type="number" inputmode="numeric" min="1" step="1" value="3"></div>
+        <div class="field"><span class="flabel">&nbsp;</span><div class="seg"><label><input type="radio" name="e-unit" value="years" checked><span>Years</span></label><label><input type="radio" name="e-unit" value="months"><span>Months</span></label></div></div>
+      </div>
+      <div class="field"><label for="e-start">First EMI month (optional)</label><input id="e-start" type="month"></div>
+    </div>
+    <div class="tool-out" aria-live="polite">
+      <div class="big-label">Monthly EMI</div>
+      <div class="big" id="e-big">₹0</div>
+      <div id="e-bar"></div>
+      <div id="e-out"></div>
+    </div>
+  </div>
+  <div class="wrap mt2">
+    <div class="split"><h2 class="mb0">Repayment schedule</h2><div class="btn-row"><div class="chips"><button type="button" class="chip" data-v="year" aria-pressed="true">Yearly</button><button type="button" class="chip" data-v="month" aria-pressed="false">Monthly</button></div><button type="button" class="btn btn-line btn-sm" id="e-csv">Download CSV</button></div></div>
+    <div id="e-table"></div>
+  </div>
+</section>
+<section class="band band-tint">
+  <div class="wrap two-col">
+    <div class="prose">
+      <h2>The EMI formula</h2>
+      <p>EMI = P × r × (1 + r)<sup>n</sup> ÷ ((1 + r)<sup>n</sup> − 1)</p>
+      <p>P is the loan amount, r is the monthly interest rate (annual rate ÷ 12 ÷ 100) and n is the number of monthly instalments.</p>
+      <p>Example: ₹5,00,000 at 12% a year for 3 years. r = 0.01 and n = 36, so the EMI is about ₹16,607. Over three years you pay about ₹5,97,858, of which roughly ₹97,858 is interest.</p>
+      <h2>Flat rate versus reducing balance</h2>
+      <p>This calculator uses the reducing-balance method that banks use: interest is charged only on the amount still outstanding. Some lenders quote a <strong>flat rate</strong>, charging interest on the full original amount for the whole tenure. A 12% flat rate over 3 years costs about the same as a 21% to 22% reducing rate. Always ask which method a lender uses.</p>
+      <p>Before borrowing, read <a href="{{root}}learn/small-business-loans-india/">small business loans in India</a> and check whether your monthly cash surplus covers the EMI comfortably.</p>
+    </div>
+    <div>
+      <h2>Questions about EMI</h2>
+      <details class="faq"><summary>Does a longer tenure reduce my cost?</summary><p>No. A longer tenure lowers each EMI but increases the total interest you pay. Choose the shortest tenure your cash flow can handle.</p></details>
+      <details class="faq"><summary>Why is most of my early EMI interest?</summary><p>Interest is charged on the outstanding balance, which is highest at the start. As you repay, the interest part shrinks and the principal part grows.</p></details>
+      <details class="faq"><summary>Does prepaying a loan help?</summary><p>Prepayment reduces the outstanding principal, so you pay less interest overall. Check whether your lender charges a prepayment fee; for many floating-rate loans to individuals there is none.</p></details>
+      <details class="faq"><summary>Is processing fee included in the EMI?</summary><p>No. Processing fees, insurance and other charges are usually paid separately or deducted from the amount disbursed. Add them to understand the true cost.</p></details>
+      <div class="panel panel-tint mt2"><h3>Want help choosing a loan?</h3><p class="muted">A lending advisor can explain Mudra, CGTMSE and working capital options for your business.</p><a class="btn btn-red btn-sm" href="{{root}}expert-help/?need=loan">Get loan guidance</a></div>
+    </div>
+  </div>
+</section>
+<section class="band"><div class="wrap"><h2>More tools</h2>{{related_tools:emi-calculator}}</div></section>

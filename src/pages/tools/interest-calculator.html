@@ -1,0 +1,55 @@
+---
+title: Byaj calculator: simple and compound interest between two dates
+full_title: Byaj Calculator: Interest per ₹100 per Month, Simple and Compound | BahiKhata.com
+description: Calculate byaj (interest) on udhaar, loans or deposits between any two dates. Enter the rate as percent per year or rupees per hundred per month, with simple or compound interest.
+nav: tools
+crumb: Byaj calculator
+h1: Byaj (interest) calculator
+lede: Interest between two dates or for a fixed period, with the rate as percent a year or the traditional rupees per hundred per month.
+scripts: tools.js
+app: yes
+---
+<section class="band band-tight">
+  <div class="wrap tool" data-tool="interest">
+    <div class="tool-ui">
+      <div class="field"><label for="i-p">Principal (mool) ₹</label><input id="i-p" type="number" inputmode="decimal" min="0" step="any" value="50000"></div>
+      <div class="field"><span class="flabel">Rate given as</span>
+        <div class="seg"><label><input type="radio" name="i-rtype" value="per100" checked><span>₹ per 100 per month</span></label><label><input type="radio" name="i-rtype" value="annual"><span>% per year</span></label></div></div>
+      <div class="field"><label for="i-r">Rate</label><input id="i-r" type="number" inputmode="decimal" min="0" step="any" value="1.5"></div>
+      <div class="field"><span class="flabel">Interest type</span>
+        <div class="seg"><label><input type="radio" name="i-kind" value="simple" checked><span>Simple</span></label><label><input type="radio" name="i-kind" value="compound"><span>Compound</span></label></div></div>
+      <div class="field" id="i-comp-wrap" hidden><label for="i-comp">Compounded</label><select id="i-comp"><option value="1">Yearly</option><option value="2">Half-yearly</option><option value="4">Quarterly</option><option value="12" selected>Monthly</option></select></div>
+      <div class="field"><span class="flabel">Period</span>
+        <div class="seg"><label><input type="radio" name="i-period" value="dates" checked><span>Between dates</span></label><label><input type="radio" name="i-period" value="duration"><span>Years, months, days</span></label></div></div>
+      <div class="row2" data-period="dates"><div class="field"><label for="i-from">From</label><input id="i-from" type="date" value="2026-01-01"></div><div class="field"><label for="i-to">To</label><input id="i-to" type="date"></div></div>
+      <div class="row3" data-period="duration" hidden><div class="field"><label for="i-y">Years</label><input id="i-y" type="number" min="0" step="1" value="1"></div><div class="field"><label for="i-m">Months</label><input id="i-m" type="number" min="0" step="1" value="0"></div><div class="field"><label for="i-d">Days</label><input id="i-d" type="number" min="0" step="1" value="0"></div></div>
+    </div>
+    <div class="tool-out" aria-live="polite">
+      <div class="big-label">Interest (byaj)</div>
+      <div class="big" id="i-big">₹0</div>
+      <div id="i-out"></div>
+    </div>
+  </div>
+</section>
+<section class="band band-tint">
+  <div class="wrap two-col">
+    <div class="prose">
+      <h2>Rupees per hundred, explained</h2>
+      <p>In many Indian markets, interest is quoted as rupees per hundred per month. "Dedh rupaya sau" means ₹1.50 per ₹100 per month. To convert:</p>
+      <p><strong>Annual rate = Monthly rate per 100 × 12</strong></p>
+      <div class="tbl-wrap"><table class="table"><thead><tr><th>Per ₹100 per month</th><th>Per year</th></tr></thead><tbody><tr><td>₹1</td><td>12%</td></tr><tr><td>₹1.50</td><td>18%</td></tr><tr><td>₹2</td><td>24%</td></tr><tr><td>₹3</td><td>36%</td></tr><tr><td>₹5</td><td>60%</td></tr></tbody></table></div>
+      <h2>Simple and compound interest</h2>
+      <p><strong>Simple interest</strong> = Principal × Rate × Time ÷ 100. Interest is charged only on the original amount.</p>
+      <p><strong>Compound interest</strong> adds interest to the principal at each compounding period, so interest is charged on interest. A = P × (1 + r ÷ n)<sup>n × t</sup>.</p>
+      <p>Example: ₹50,000 at ₹1.50 per hundred per month (18% a year) for one year is ₹9,000 simple interest. Compounded monthly it is about ₹9,781.</p>
+      <p>Charging interest on overdue udhaar only works if the customer agreed to it in advance. See <a href="{{root}}learn/udhaar-credit-management/">managing udhaar</a>.</p>
+    </div>
+    <div>
+      <h2>Questions about byaj</h2>
+      <details class="faq"><summary>How many days does the calculator count between dates?</summary><p>It counts the calendar days from the start date to the end date, and converts them to years by dividing by 365.</p></details>
+      <details class="faq"><summary>Is 2 percent per month the same as 24 percent a year?</summary><p>For simple interest, yes. With monthly compounding, 2% a month works out to about 26.8% a year, because interest is charged on earlier interest.</p></details>
+      <details class="faq"><summary>Is it legal to charge high interest on private loans?</summary><p>Several states regulate private money lending and cap interest rates for licensed moneylenders. Rates far above bank rates can also be challenged in court. Check your state's rules and get agreements in writing.</p></details>
+    </div>
+  </div>
+</section>
+<section class="band"><div class="wrap"><h2>More tools</h2>{{related_tools:interest-calculator}}</div></section>
